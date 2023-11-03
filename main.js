@@ -555,26 +555,27 @@ function Playaudio5(e){
 
 //Question play functions
 function PlayQuestion1(e){
-    (e.parentNode.querySelector('svg').style.backgroundColor = '#F99F23');
+    (document.getElementById(e.parentNode.id).style.backgroundColor = '#F99F23');
+    //console.log(document.getElementById(e.parentNode.id).style.backgroundColor = 'red');
         // [0]).style.backgroundColor ='#F99F23'  ;
         // [0].style.color = '#F99F23');
 
     var question1_audio = document.getElementById('Question1_1');
     question1_audio.play();
-    console.log(e.parentNode.querySelector('svg').style.fill = 'green');
+    //console.log(e.parentNode.querySelector('svg').style.fill = 'green');
     question1_audio.onended = function() {
-        (e.parentNode.querySelector('svg').style.backgroundColor = 'lightgrey');
+        (document.getElementById(e.parentNode.id).style.backgroundColor = 'lightgrey');
     };
 
 }
 
 function PlayQuestion2(e){
     // (e.parentNode.querySelectorAll('i')[0].style.color = '#F99F23');
-    (e.parentNode.querySelector('svg').style.backgroundColor = '#F99F23');
+    document.getElementById(e.parentNode.id).style.backgroundColor = '#F99F23';
     var question2_audio = document.getElementById('Question2_1');
     question2_audio.play();
     question2_audio.onended = function() {
-        (e.parentNode.querySelector('svg').style.backgroundColor = 'lightgrey');
+        (document.getElementById(e.parentNode.id).style.backgroundColor = 'lightgrey');
     };
 
 }
@@ -583,60 +584,60 @@ function PlayQuestion3(e){
     // (e.parentNode.querySelectorAll('i')[0].style.color = '#F99F23');
 
     var question3_audio = document.getElementById('Question3_1');
-    (e.parentNode.querySelector('svg').style.backgroundColor = '#F99F23');
+    (document.getElementById(e.parentNode.id).style.backgroundColor = '#F99F23');
     question3_audio.play();
     question3_audio.onended = function() {
         // (e.parentNode.querySelectorAll('i')[0].style.color = '#2EC4B6');
-        (e.parentNode.querySelector('svg').style.backgroundColor = 'lightgrey');
+        (document.getElementById(e.parentNode.id).style.backgroundColor = 'lightgrey');
     };
 
 }
 
 function PlayQuestion4(e){
     // (e.parentNode.querySelectorAll('i')[0].style.color = '#F99F23');
-    (e.parentNode.querySelector('svg').style.backgroundColor = '#F99F23');
+    (document.getElementById(e.parentNode.id).style.backgroundColor = '#F99F23');
     var question4_audio = document.getElementById('Question4_1');
     question4_audio.play();
     question4_audio.onended = function() {
         // (e.parentNode.querySelectorAll('i')[0].style.color = '#2EC4B6');
-        (e.parentNode.querySelector('svg').style.backgroundColor = 'lightgrey');
+        (document.getElementById(e.parentNode.id).style.backgroundColor = 'lightgrey');
     };
 
 }
 
 function PlayQuestion5(e){
     // (e.parentNode.querySelectorAll('i')[0].style.color = '#F99F23');
-    (e.parentNode.querySelector('svg').style.backgroundColor = '#F99F23');
+    (document.getElementById(e.parentNode.id).style.backgroundColor = '#F99F23');
     var question5_audio = document.getElementById('Question5_1');
     question5_audio.play();
     question5_audio.onended = function() {
         // (e.parentNode.querySelectorAll('i')[0].style.color = '#2EC4B6');
-        (e.parentNode.querySelector('svg').style.backgroundColor = 'lightgrey');
+        (document.getElementById(e.parentNode.id).style.backgroundColor = 'lightgrey');
     };
 
 }
 
 function PlayQuestion6(e){
     // (e.parentNode.querySelectorAll('i')[0].style.color = '#F99F23');
-    (e.parentNode.querySelector('svg').style.backgroundColor = '#F99F23');
+    (document.getElementById(e.parentNode.id).style.backgroundColor = '#F99F23');
 
     var question6_audio = document.getElementById('Question6_1');
     question6_audio.play();
     question6_audio.onended = function() {
         // (e.parentNode.querySelectorAll('i')[0].style.color = '#2EC4B6');
-        (e.parentNode.querySelector('svg').style.backgroundColor = 'lightgrey');
+        (document.getElementById(e.parentNode.id).style.backgroundColor = 'lightgrey');
     };
 
 }
 
 function PlayQuestion7(e){
     // (e.parentNode.querySelectorAll('i')[0].style.color = '#F99F23');
-    (e.parentNode.querySelector('svg').style.backgroundColor = '#F99F23');
+    (document.getElementById(e.parentNode.id).style.backgroundColor = '#F99F23');
     var question7_audio = document.getElementById('Question7_1');
     question7_audio.play();
     question7_audio.onended = function() {
         // (e.parentNode.querySelectorAll('i')[0].style.color = '#2EC4B6');
-        (e.parentNode.querySelector('svg').style.backgroundColor = 'lightgrey');
+        (document.getElementById(e.parentNode.id).style.backgroundColor = 'lightgrey');
     };
 
 }
