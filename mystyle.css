@@ -270,9 +270,9 @@ body {
 #progress1,#progress2,#progress3,#progress4,#progress5,#progress6,#progress7 {
     background: #333;
     border-radius: 13px;
-    height: 30px;
+    height: 20px;
     width: 85%;
-    padding: 3px;
+    padding: 2px;
     text-align: center;
     margin: auto;
 
@@ -288,7 +288,7 @@ body {
     width: 15%;
     height: 100%;
     border-radius: 9px;
-    font-size: 1em;
+    font-size: 0.5em;
 /*  vertical-align: 10;*/
   color:black;
 /*  margin: auto;*/
@@ -302,7 +302,7 @@ body {
     width: 30%;
     height: 100%;
     border-radius: 9px;
-    font-size: 1em;
+    font-size: 0.5em;
 /*  vertical-align: 10;*/
   color:black;
 }
@@ -315,7 +315,7 @@ body {
     height: 100%;
     border-radius: 9px;
     content: attr(data-label);
-    font-size: 1em;
+    font-size: 0.5em;
 /*  vertical-align: 10;*/
   color:black;
 
@@ -329,7 +329,7 @@ body {
     height: 100%;
     border-radius: 9px;
     content: attr(data-label);
-    font-size: 1em;
+    font-size: 0.5em;
 /*  vertical-align: 10;*/
   color:black;
 }
@@ -342,7 +342,7 @@ body {
     height: 100%;
     border-radius: 9px;
     content: attr(data-label);
-    font-size: 1em;
+    font-size: 0.5em;
 /*  vertical-align: 10;*/
   color:black;
 }
@@ -355,7 +355,7 @@ body {
     height: 100%;
     border-radius: 9px;
     content: attr(data-label);
-    font-size: 1em;
+    font-size: 0.5em;
 /*  vertical-align: 10;*/
   color:black;
 }
@@ -368,7 +368,7 @@ body {
     height: 100%;
     border-radius: 9px;
     content: attr(data-label);
-    font-size: 1em;
+    font-size: 0.5em;
 /*  vertical-align: 10;*/
   color:black;
 }
