@@ -155,11 +155,11 @@ body {
     flex-direction: row;
     border: 2px solid #2EC4B6; 
     border-radius: 20px;
-    font-size:2.3em; 
+    font-size:2.1em; 
     margin-bottom: -120px; 
     margin-top: -120px;
     width: 40%;
-    height:70px;
+    height:60px;
     cursor: pointer;
     color:black;
     /*border: 1px solid red;*/
@@ -183,12 +183,12 @@ body {
 }
 
 #q1_gif,#q2_gif,#q3_gif,#q4_gif,#q5_gif,#q6_gif,#q7_gif {
-	width:180px;
-	height:180px;
+	width:150px;
+	height:150px;
 }
 
 .Question_Header1,.Question_Header2,.Question_Header3,.Question_Header4,.Question_Header5,.Question_Header6,.Question_Header7{
-	font-size: 2.2em;
+	font-size: 2em;
 /*	margin: 0.5em 0;*/
 
 }
