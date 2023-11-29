@@ -89,6 +89,8 @@ body {
   	        text-align: center;
   	        color:#2EC4B6;
   	        background-color: White;
+/*  	        border: 1px solid red;*/
+/*  	        height:20%;*/
 
 		}
 		#page_questions2,#page_questions3,
@@ -129,6 +131,7 @@ body {
 			flex-direction: column;
 			width: 100%;
 			align-items: center;
+			margin-top: -10px;
 			/*border: 3px solid green;*/
 		}
 
@@ -139,6 +142,7 @@ body {
 /*	        justify-content: center;*/
 			width: 100%;
 			align-items: center;
+			margin-top: -10px;
 			/*border: 3px solid green;*/
 		}
 
@@ -155,7 +159,7 @@ body {
     flex-direction: row;
     border: 2px solid #2EC4B6; 
     border-radius: 20px;
-    font-size:2.1em; 
+    font-size:2em; 
     margin-bottom: -120px; 
     margin-top: -120px;
     width: 40%;
